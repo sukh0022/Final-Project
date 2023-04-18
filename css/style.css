@@ -1,0 +1,524 @@
+/*google_font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,800&display=swap');
+/*main_cointainer css*/
+.main_container {
+    max-width: 1600px;
+    margin: auto;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+/*end*/
+/*body*/
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+/*end*/
+/*toggle css*/
+.toggle {
+    display: none!important;
+}
+/*end*/
+/*header css*/
+.header {float: left; width: 100%; background: #000; }
+.flex_header {float: left; width: 100%; }
+.logo {float: left; }
+.logo img {max-width: 100%; height: 13vh; }
+.menu_bar {float: left; padding: 30px 0 0 0; }
+.menu_bar ul {float: left; width: 100%; margin: 0; padding: 0; display: flex; justify-content: space-around; }
+.menu_bar ul li {display: inline-block; }
+.menu_bar ul li a {text-decoration: none; color: #c28d00; padding: 10px 30px; }
+.menu_bar ul li a.active {background: #c28d00; color: #000; }
+.search_bar {float: left; padding: 30px 0 0 0; }
+.search_bar input[type="search"] {float: left; width: 80%; height: 30px; border: 1px solid gray; text-indent: 10px; }
+.search_bar form button {float: left; width: 20%; height: 30px; border: 1px solid #c28d00; background: transparent; }
+.search_bar form button i {color: #c28d00; }
+.menu_bar ul li a:hover {
+    background: #c28d00;
+    color: #000;
+}
+/*end*/
+
+/*welcome_to_three_start_media css*/
+.main_banner {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.background_img {
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.background_img img {
+    width: 100%;
+    height: 70vh;
+}
+.welcome_content {
+    float: left;
+    width: 100%;
+    background: #00000090;
+    margin: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.welcome_content h1 {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-size: 100px;
+    line-height: 100px;
+    margin: 0;
+    padding: 0px 0 0 30px;
+    font-size: 30px;
+}
+.welcome_content p {
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 30px;
+}
+.welcome_content button {
+    float: left;
+    width: 20%;
+    padding: 15px 0;
+    background: #c28d00;
+    margin: 0 0 0px 30px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*end*/
+/*About Us*/
+.about_us {
+    float: left;
+    width: 100%;
+    background: #fff8c8;
+    padding: 20px 0;
+}
+.about_img.col-sm-6 {
+    float: left;
+}
+.about_img.col-sm-6 img{
+max-width: 100%
+}
+.aboutus_text.col-sm-6 {
+    float: left;
+    padding-left: 20px;
+}
+.aboutus_text h1 {
+    font-size: 48px;
+    margin-top: 20px;
+}
+.aboutus_text p {
+    font-size: 15px;
+    padding-top: 13px;
+}
+/*end*/
+/*services css*/
+.services {
+    float: left;
+    width: 100%;
+}
+.services_dtls {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services_1.col-sm-6 {
+    float: left;
+}
+.services_1.col-sm-6 img {
+    width: 100%;
+    height: 50vh;
+}
+.padding1.col-sm-6 {
+    float: left;
+    padding: 0 20px 0 0px;
+}
+.services_1 h2 {
+    float: left;
+    width: 96%;
+    margin: 0 2%;
+    padding: 20px 0;
+}
+.services_1 p {
+    float: left;
+    width: 96%;
+    margin: 0 2%;
+    padding-bottom: 20px;
+}
+.services_2.col-sm-4 img {
+    width: 97%;
+}
+.services_1 button {
+    float: left;
+    width: 96%;
+    margin: 2%;
+    background: #1c1c1c;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 10px;
+}
+.services_2 p {
+    float: left;
+    width: 96%;
+    margin: 0 2%;
+    padding-bottom: 20px;
+}
+.services_2 h2 {
+    float: left;
+    width: 96%;
+    margin: 0 2%;
+    padding: 20px 0;
+}
+.services_1 {
+ 
+    background: #fff8c8;
+}
+.services_box {
+    float: left;
+    width: 100%;
+    padding: 20px 0px;
+}
+.services_2.col-sm-4 {
+    float: left;
+}
+.services_2 button {
+    float: left;
+    width: 96%;
+    margin: 2%;
+    background: #1c1c1c;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 10px;
+}
+.services_1.padding1.col-sm-6 {
+    width: 49%;
+}
+.services_1.padding1.col-sm-6 img {
+    width: 104%;
+    height: 50vh;
+}
+
+/*end*/
+/*vision css*/
+.vision {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    background-image: url(../images/vision.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vision_text h1 {
+    float: left;
+    width: 100%;
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+}
+.vision_text p {
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+}
+.vision_text button {
+    float: left;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+    background: #00000050;
+    border: 1px solid #c28d00;
+}
+/*our team css*/
+.our_team {
+    float: left;
+    width: 100%;
+    padding: 20px 0px;
+}
+.team_1.col-sm-6 {
+    float: left;
+}
+.team_1.col-sm-6 img {
+    max-width: 100%;
+}
+.team_dtl {
+    float: left;
+    width: 100%;
+    padding: 4%;
+    height: 56vh;
+     background: #fff8c8;
+}
+.team_dtl h1 {
+    float: left;
+    width: 100%;
+    font-size: 48px;
+    margin: 0;
+}
+.team_dtl span {
+    float: left;
+    width: 100%;
+    font-size: 24px;
+    border-bottom: 1px solid #c28d00;
+}
+.team_dtl p {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+}
+/*end*/
+/*contact us*/
+.contact_us {
+    float: left;
+    width: 100%;
+}
+.contact_form {
+    float: left;
+    width: 49%;
+}
+.contact_form h1 {
+    float: left;
+    width: 100%;
+    font-size: 30px;
+}
+.contact_form form label {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.contact_form form input {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    padding: 4px 0;
+}
+.contact_form form button {
+    float: left;
+    color: #c28d00;
+    background: #000000ee;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.contact_form form textarea {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    height: 70px;
+}
+.contact_map {
+    float: left;
+    width: 49%;
+    margin-left: 2%;
+}
+/**/
+/*operation css*/
+.operation {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+.operation_heading {
+    float: left;
+    width: 100%;
+    font-size: 30px;
+}
+.operation_tb, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.operation_tb th {
+    background: #ffdfc6;
+}
+.operation_tb th, .operation_tb td {
+    padding: 10px;
+}
+table.operation_tb {
+    width: 100%;
+}
+/*end*/
+/*footer css*/
+.footer {
+    float: left;
+    width: 100%;
+    background: #000;
+    padding: 20px 0px;
+}
+.footer p {
+    float: left;
+    width: 100%;
+    color: #c28d00;
+}
+.footer p a {
+    color: #c28d00;
+}
+/*end*/
+
+
+@media screen and (min-device-width: 200px) and (max-device-width: 767px){
+/*header media css*/
+.menu_bar.col-sm-8 {
+    display: none!important;
+}
+.search_bar {
+    padding: 15px 0px 0px 20px!important;
+}
+.logo img {
+    max-width: 100%;
+    height: 9vh!important;
+}
+.menu_bar ul li {
+    margin: 10px 0!important;
+}
+/*end*/
+/*toggle media css*/
+.toggle {
+    float: left;
+    position: absolute;
+    left: 325px;
+    top: 12px;
+    display: block!important;
+}
+.menu_bar ul {
+    
+    display: inline-grid!important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: transparent!important;
+    border-color:  transparent!important;
+    border: transparent!important;
+    box-shadow: unset!important;
+}
+.toggle .menu_bar.col-sm-8 {
+    display: block!important;
+}
+/*wecome media css*/
+.welcome_content h1 {
+ 
+    font-size: 20px!important;
+}
+.welcome_content {
+  
+    margin: 5px 0!important;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+.welcome_content button {
+    width: 30%!important;
+    padding: 5px 0px!important;
+    margin: 0 0 10px 30px!important;
+    font-size: 12px!important;
+}
+.welcome_content p {
+    font-size: 13px!important;
+}
+/*services media css*/
+.services_1.padding1.col-sm-6 {
+    width: 100%!important;
+}
+.services_2.col-sm-4 img {
+    width: 100%!important;
+}
+.services_2 button {
+    
+    font-size: 20px!important;
+   padding: 5px!important;
+}
+.service_heading h1 {
+    font-size: 20px!important;
+    padding: 10px 0 5px 0!important;
+}
+.services_1 h2 {
+    
+    font-size: 20px!important;
+}
+.services_1 button {
+  
+    font-size: 20px!important;
+    padding: 5px!important;
+}
+.vision_text p {
+  
+    font-size: 15px!important;
+}
+.vision_text button {
+    width: 50%!important;
+    font-size: 15px!important;
+   
+}
+.team_dtl h1 {
+   
+    font-size: 30px!important;
+}
+/*contact media css*/
+.contact_form {
+    float: left;
+    width: 100%!important;
+}
+/*about media css*/
+.aboutus_text h1 {
+    font-size: 30px!important;
+}
+/*contact map*/
+ .contact_map > iframe {
+    width: 100% !important;
+    height: auto !important;
+    min-height: calc(100vh - 20px);
+  }
+  .contact_map {
+    float: left;
+    width: 100%!important;
+    margin-left: 0%; 
+}
+/*contact form*/
+.contact_form form input {
+    float: left;
+    width: 100%;
+    font-size: 18px!important;
+    padding: 18px 0;
+}
+.contact_form form textarea {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    height: 75px!important;
+}
+/*end*/
+}
+
+@media screen and (min-device-width: 390px) and (max-device-width: 844px){
+	.search_bar {
+    padding: 25px 0px 0px 20px!important;
+}
+.toggle {
+    float: left;
+    position: absolute;
+    left: 345px!important;
+    top: 20px!important;
+    display: block!important;
+}
+.team_dtl {
+    float: left;
+    width: 100%;
+    padding: 4%;
+    height: 40vh!important;
+    background: #fff8c8;
+}
+}	
